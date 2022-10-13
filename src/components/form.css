@@ -1,0 +1,377 @@
+.add-member {
+  width: 1027px;
+  height: 399px;
+  background: #d9d9d9;
+}
+
+.add-member h2 {
+  margin-left: 36px;
+  margin-right: 35px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3b95d7;
+  border-bottom: 1px solid #000000;
+}
+
+.add-member .first-last {
+  margin-top: 2px;
+  margin-left: 40px;
+  display: flex;
+}
+
+.add-member .first-last div {
+  display: flex;
+  flex-direction: column;
+}
+
+.add-member .first-last div:last-child {
+  margin-left: 20px;
+}
+
+.add-member .first-last label {
+  width: 199px;
+}
+
+.add-member .address div:nth-child(1) {
+  width: 380px;
+}
+
+.add-member .address div:nth-child(2) {
+  width: 116px;
+  margin-left: 23px;
+}
+
+.add-member .address div:nth-child(3) {
+  width: 199px;
+  margin-left: 23px;
+}
+
+.add-member .address div:nth-child(4) {
+  width: 199px;
+  margin-left: 23px;
+}
+
+.add-member .gender-age div {
+  margin-top: 20px;
+}
+
+.add-member .gender-age div:nth-child(1) {
+  width: 199px;
+}
+
+.add-member .gender-age div:nth-child(1) select {
+  height: 32px;
+  border: none;
+}
+
+.add-member .gender-age div:nth-child(2) {
+  width: 116px;
+  margin-left: 23px;
+}
+
+.add-member .gender-age div:last-child {
+  width: 331px;
+}
+
+.add-member .gender-age div:last-child fieldset {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.add-member .gender-age div:last-child #professional {
+  margin-left: 23px;
+}
+
+.add-member .gender-age div:last-child #amateur {
+  margin-left: 83px;
+}
+
+.add-member .gender-age div:last-child #amateurLabel {
+  display: inline !important;
+  width: 104px !important;
+}
+
+.add-member .gender-age div:last-child #professionalLabel {
+  display: inline !important;
+  width: 72px !important;
+  margin-left: 19px !important;
+}
+
+.add-member .sports {
+  margin-top: 17px;
+  margin-left: 43px;
+  border: 1px solid #3b95d7;
+  border-radius: 15px;
+  width: 688px;
+  height: 110px;
+}
+
+.add-member .sports .title {
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.add-member .sports div {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.add-member .sports div input:nth-child(1) {
+  margin-left: 13px;
+}
+
+.add-member .sports div label:nth-child(2) {
+  margin-left: 4px;
+  color: #3b95d7;
+}
+
+.add-member .sports div input:nth-child(3) {
+  margin-left: 29px;
+}
+
+.add-member .sports div label:nth-child(4) {
+  margin-left: 6px;
+  color: #3b95d7;
+}
+
+.add-member .sports div input:nth-child(5) {
+  margin-left: 28px;
+}
+.add-member .sports div label:nth-child(6) {
+  margin-left: 4px;
+  color: #3b95d7;
+}
+.add-member .sports div input:nth-child(7) {
+  margin-left: 28px;
+}
+.add-member .sports div label:nth-child(8) {
+  margin-left: 4px;
+  color: #3b95d7;
+}
+.add-member .sports div input:nth-child(9) {
+  margin-left: 28px;
+}
+.add-member .sports div label:nth-child(10) {
+  margin-left: 5px;
+  color: #3b95d7;
+}
+
+.add-member button {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 33px;
+  left: 835px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  width: 158px;
+  height: 30px;
+  background: #3b95d7;
+  border: 1px solid #686868;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+  cursor: pointer;
+}
+
+.edit-member {
+  margin-top: 15px;
+  width: 1027px;
+  height: 413px;
+  background: #d9d9d9;
+}
+
+.edit-member h2 {
+  margin-left: 36px;
+  margin-right: 35px;
+  margin-top: 20px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 36px;
+  color: #3b95d7;
+  border-bottom: 1px solid #000000;
+}
+
+.edit-member .first-last {
+  margin-top: 5px;
+  margin-left: 40px;
+  display: flex;
+}
+
+.edit-member .first-last div {
+  display: flex;
+  flex-direction: column;
+}
+
+.edit-member .first-last div:last-child {
+  margin-left: 20px;
+}
+
+.edit-member .first-last label {
+  width: 199px;
+}
+
+.edit-member .address div:nth-child(1) {
+  width: 380px;
+}
+
+.edit-member .address div:nth-child(2) {
+  width: 116px;
+  margin-left: 23px;
+}
+
+.edit-member .address div:nth-child(3) {
+  width: 199px;
+  margin-left: 23px;
+}
+
+.edit-member .address div:nth-child(4) {
+  width: 199px;
+  margin-left: 23px;
+}
+
+.edit-member .gender-age div {
+  margin-top: 20px;
+}
+
+.edit-member .gender-age div:nth-child(1) {
+  width: 199px;
+}
+
+.edit-member .gender-age div:nth-child(1) select {
+  height: 32px;
+  border: none;
+}
+
+.edit-member .gender-age div:nth-child(2) {
+  width: 116px;
+  margin-left: 23px;
+}
+
+.edit-member .gender-age div:last-child {
+  width: 331px;
+}
+
+.edit-member .gender-age div:last-child fieldset {
+  background: #ffffff;
+  display: flex;
+  align-items: center;
+  border: none;
+}
+
+.edit-member .gender-age div:last-child #professionalEdit {
+  margin-left: 23px;
+}
+
+.edit-member .gender-age div:last-child #amateurEdit {
+  margin-left: 83px;
+}
+
+.edit-member .gender-age div:last-child #amateurLabelEdit {
+  display: inline !important;
+  width: 104px !important;
+}
+
+.edit-member .gender-age div:last-child #professionalLabelEdit {
+  display: inline !important;
+  width: 72px !important;
+  margin-left: 19px !important;
+}
+
+.edit-member .sports {
+  margin-top: 17px;
+  margin-left: 43px;
+  border: 1px solid #3b95d7;
+  border-radius: 15px;
+  width: 688px;
+  height: 110px;
+}
+
+.edit-member .sports .title {
+  margin-left: 13px;
+  margin-top: 7px;
+}
+
+.edit-member .sports div {
+  margin-top: 1px;
+  display: flex;
+  align-items: center;
+}
+
+.edit-member .sports div input:nth-child(1) {
+  margin-left: 13px;
+}
+
+.edit-member .sports div label:nth-child(2) {
+  margin-left: 4px;
+  color: #3b95d7;
+}
+.edit-member .sports div input:nth-child(3) {
+  margin-left: 29px;
+}
+.edit-member .sports div label:nth-child(4) {
+  margin-left: 6px;
+  color: #3b95d7;
+}
+.edit-member .sports div input:nth-child(5) {
+  margin-left: 28px;
+}
+.edit-member .sports div label:nth-child(6) {
+  margin-left: 4px;
+  color: #3b95d7;
+}
+.edit-member .sports div input:nth-child(7) {
+  margin-left: 28px;
+}
+.edit-member .sports div label:nth-child(8) {
+  margin-left: 4px;
+  color: #3b95d7;
+}
+.edit-member .sports div input:nth-child(9) {
+  margin-left: 28px;
+}
+.edit-member .sports div label:nth-child(10) {
+  margin-left: 5px;
+  color: #3b95d7;
+}
+
+.edit-member button {
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  position: relative;
+  bottom: 33px;
+  left: 835px;
+  font-family: "Poppins";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 21px;
+  display: flex;
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.1em;
+  color: #ffffff;
+  width: 158px;
+  height: 30px;
+  background: #3b95d7;
+  border: 1px solid #686868;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
