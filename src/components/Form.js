@@ -16,43 +16,31 @@ const Form = (props) => {
 
   const handleSubmit = async (e) => {
     e.preventDefault();
-    try {
-      let res = await fetch("http://localhost:3000/users", {
-        method: "POST",
-        headers: {
-          "Content-Type": "application/json",
-        },
-        body: JSON.stringify({
-          firstName: firstName,
-          lastName: lastName,
-          address: {
-            streetAndNumber: streetAndNumber,
-            postalCode: zipCode,
-            city: city,
-            country: country,
-          },
-          sports: sports,
-          gender: gender,
-          age: age,
-          activity_class: activity,
-        }),
-      });
-      let resJson = await res.json();
-      if (res.status === 201 || res.status === 200) {
-        setFirstName("");
-        setLastName("");
-        setZipcode("");
-        setStreetAndNumber("");
-        setCity("");
-        setCountry("");
-        setAge("");
-        console.log("succes");
-      } else {
-        console.log("Some error occured");
-      }
-    } catch (err) {
-      console.log(err);
-    }
+
+    const newUser = {
+      firstName: firstName,
+      lastName: lastName,
+      address: {
+        streetAndNumber: streetAndNumber,
+        postalCode: zipCode,
+        city: city,
+        country: country,
+      },
+      sports: sports,
+      gender: gender,
+      age: age,
+      activity_class: activity,
+    };
+
+    console.log(newUser);
+    props.onAddUser(newUser);
+    setFirstName("");
+    setLastName("");
+    setZipcode("");
+    setStreetAndNumber("");
+    setCity("");
+    setCountry("");
+    setAge("");
   };
 
   return (

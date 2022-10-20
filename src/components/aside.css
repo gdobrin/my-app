@@ -105,3 +105,8 @@ p:nth-child(3) {
   letter-spacing: 0.1em;
   margin-left: 18px;
 }
+
+.loading {
+  width: 382px;
+  text-align: center;
+}
